@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>JavaJam Coffee House</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="mystyle.css">
+	<script type="text/javascript" src="jobs.js"></script>
+
+</script>	
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1><img src="javalogo.gif"></h1>
+  </header>
+  <div id="leftcolumn">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="music.html">Music</a></li>
+      <li><a href="jobs.html">Job</a></li>
+	</ul>
+  </nav>	
+  </div>
+  <div id="rightcolumn">
+    <div class="content"> 
+	<h2 class="header2">Jobs at JavaJam</h2>
+	<p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*).</p>
+	<form id="myForm" method="post" action="formhandle.php">
+		<label for="myName">*Name:</label>
+		<input type="text" id="myName" name="myName" required>
+		<br>
+		<label for="myEmail">*E-mail:</label>
+		<input type="text" type="email" id="myEmail" name="myEmail" required>
+		<br>
+		<label for="myStartDate">*Start Date:</label>
+		<input type="date" type="startDate" id="myStartDate" name="myStartDate" required>
+		<br>
+		<label for="myExperience">*Experience:</label>
+		<textarea id="myExperience" name="myExperience" cols="40" rows="4" required>Enter your past experience here</textarea>
+		<br>
+		<input type="reset" value="clear" class="myButton" />
+		
+		<input type="submit" value="Apply Now" class="myButton" />
+	</form>
+    </div>
+  </div>
+	<footer>
+            Copyright&copy; 2021 Hang Coffe<br> <a href = "mailto: lihang@example.com">lihang@xxx.com</a>
+    </footer>
+</div>
+</body>
+</html>

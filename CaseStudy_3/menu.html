@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>JavaJam Coffee House</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <meta charset="utf-8">
+  <script type="text/javascript" src="menu.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1><img src="javalogo.gif"></h1>
+    </header>
+    <div id="leftcolumn">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="jobs.html">Job</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="rightcolumn">
+      <div class="content">
+        <div>
+          <h2 class="header2">Coffe at JavaJam</h2>
+        </div>
+        <div>
+          <table id="menuTable">
+            <tr>
+              <td>Just Java</td>
+              <td>
+                <p>ssssssssssss</p>
+                <div>
+                  <input type="radio" name="javaType" id="javaSingle" value="1.2" checked>
+                    <label for="javaType"><strong>Single Short: $1.2</strong> </label>
+                  <input type="radio" name="javaType" id="javaDouble" value="2">
+                    <label for="javaType"><strong>Double Short: $2</strong> </label>
+                </div>
+              </td>
+              <td><input type="text" class="quantity" id="Java"></td>
+              <td>
+                <p id="javaPrice">0.0</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Mocha Latte</td>
+              <td>
+                <p>ssssssssssss</p>
+                <div>
+                  <input type="radio" name="mochaType" id="jmochaSingle" value="1.2" checked>
+                    <label for="javaType"><strong>Single Short: $1.2</strong> </label>
+                  <input type="radio" name="mochaType" id="mochaDouble" value="2">
+                    <label for="javaType"><strong>Double Short: $2</strong> </label>
+                </div>
+              </td>
+              </td>
+              <td><input type="text" class="quantity" id="Mocha"></td>
+              <td>
+                <p id="mochaPrice">0.0</p>
+              </td>
+            </tr>
+            <tr>
+              <td>MCP Latte</td>
+              <td>
+                <p>ssssssssssss</p>
+                <div>
+                  <input type="radio" name="mcpType" id="mcpSingle" value="1.2" checked>
+                    <label for="javaType"><strong>Single Short: $1.2</strong> </label>
+                  <input type="radio" name="mcpType" id="mcpDouble" value="2">
+                    <label for="javaType"><strong>Double Short: $2</strong> </label>
+                </div>
+              </td>
+              </td>
+              <td><input type="text" class="quantity" id="MCP"></td>
+              <td>
+                <p id="mcpPrice">0.0</p>
+              </td>
+            </tr>
+            <tr>
+              <td></td><td></td><td>Total Price:</td><td> <p id="totalPrice">0.0</p></td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+    </div>
+    <div id="myfooter">
+      <footer>
+        Copyright&copy; 2021 Hang Coffe<br> <a href="mailto: lihang@example.com">lihang@xxx.com</a>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
