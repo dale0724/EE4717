@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaJam Coffee House</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+<div id="wrapper">
+    <header>
+        <h1><img src="javalogo.gif"></h1>
+    </header>
+    <div id="leftcolumn">
+        <nav>
+            <ul>
+                <li><a href="menu.php">Menu</a></li>
+                <li><a href="price.php">Price</a></li>
+                <li><a href="report.html">Report</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="rightcolumn">
+        <div class="content">
+            <h2>Click to generate daily sales report:</h2>
+            <div class="content">
+                <form action="totalSales.php" method="get">
+                    <dl><input type="button" value="Generate" id="totalsales" onclick="submit();" > Total dollar sales by products</dl>
+                </form>
+                <form action="salesQuantity.php" method="get">
+                    <dl><input type="button" value="Generate" id="salesQuantities" onclick="submit();"> Sales quantities by product categories</dl>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="myfooter">
+        <footer>
+            Copyright&copy; 2021 Hang Coffe<br> <a href="mailto: lihang@example.com">lihang@xxx.com</a>
+        </footer>
+    </div>
+</div>
+</body>
+
+</html>

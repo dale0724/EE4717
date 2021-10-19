@@ -1,0 +1,136 @@
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: #eee3b0;
+}
+#wrapper { background-color: #e1d0b1; 
+           color: #815d4b;
+           width: 80%;
+		   margin: auto;
+           min-width:800px;
+} 
+#leftcolumn { float: left;
+	          width: 150px;
+              padding-left: 20px;
+			  color: #805e50;
+} 
+#rightcolumn { margin-left: 155px;
+               background-color: #f5f5dd;
+               color: #815d4b;
+} 
+header{ background-color: #caab63; 
+}
+h1 {
+    text-align: center;
+	margin-bottom: 0px;
+}
+h2 { color: #5c342c; 
+     font-family: arial, sans-serif;
+}
+.content {padding: 20px 20px 0 20px; 
+} 
+#floatright { margin: 10px;
+             float: right;
+}
+
+footer {font-size:70%;
+         text-align: center;
+		 clear: right;
+         padding-bottom:20px;
+		 background-color: #caab63;
+}
+ul {
+    padding-inline-start: 15px;
+}	
+nav ul { list-style-type: none;
+}
+nav a {text-decoration: none;
+color: #805e50;
+font-weight: bold;
+}
+nav a:visited{
+    color: #caab63;
+}
+nav a:hover { color: #330000; }
+.header2 {
+    font-weight: bold;
+    color: #5c342c;
+}
+.myButton  { margin-left: 0px; }
+#myForm label { float: left; clear: left; display: block; width: 120px; 
+text-align: right; padding-right: 10px; margin-top: 9px; }
+#myForm input, textarea { margin-top: 9px; display: block;}
+#myForm { margin-left: 30px;}
+
+
+#nature {
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    width: 400px;
+    height: 250px;
+    display:inline-block;
+}
+#homeList {
+display: inline-block;
+vertical-align: top;
+padding-left: 20px;
+}
+#homeListText {
+    margin-top: 50px;
+}
+#homeList ul{
+    list-style-image: url('coffee_list_logo.png');
+}
+
+#menuTable{
+    width: 90%;
+	margin: auto;
+	border-spacing: 0;
+    padding-bottom: 50px;
+}
+#menuTable td{
+    padding: 20px; 
+    font-family: Arial, sans-serif,; 
+    border: 2px solid #f5f5dd;
+}
+#menuTable tr:nth-of-type(odd) {
+    background-color: #caab63;
+}
+#menuTable td:nth-of-type(odd){
+    width: 100px;
+    font-weight: bold;
+}
+.quantity {
+    width: 50%;
+    margin:auto;
+}
+
+
+#myfooter{
+    background-color: #caab63;
+    padding-top: 20px;
+}
+#musicDescription{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+dt {
+    background-color: #e1d0b1;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#musicImg{
+    width: 80px;
+    height: 80px;
+    left: 10%;
+    margin: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#musicText{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-left: 30px;
+}
